@@ -31,3 +31,4 @@ To pass **Strong Integrity**, you’ll need a **valid keybox** file.
 ### 📝 Note
 - Passing **Device Integrity** is sufficient for most banking and finance apps to function seamlessly.
 - Stop abusing keyboxes just for flexing purposes — use them only when necessary.
+- If you are still using **Android 15 builds**, you need to follow the **keybox conversion guide** here: [Keybox Conversion Guide](https://github.com/AxionAOSP/PlayIntegrityFix/blob/lineage-22.1/keybox/Keybox_conversion.md)
