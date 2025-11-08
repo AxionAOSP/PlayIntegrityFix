@@ -1,45 +1,33 @@
-# 🔐 Keybox Update Guide
+# 🧩 Axion OS Play Integrity Fix Guide
 
-Follow these steps to convert and import your `keybox.xml` for use with **AxionAOSP**.
-
----
-
-## 1. Visit the Keybox Update Tool
-
-Go to the official website:
-
-👉 [https://axionaosp.github.io/](https://axionaosp.github.io/)
+This guide will help you fix **Play Integrity** and pass all integrity levels — **Basic**, **Device**, and **Strong** — in just a few simple steps.
 
 ---
 
-## 2. Upload Your Keybox
+## ⚙️ Passing Basic and Device Integrity
 
-- Tap the **three dots** in the top-right corner.
-- Select **"Keybox"** from the menu.
-- Choose **"Upload Keybox"**.
-- In the file manager, select your valid `keybox.xml`.
+1. Open **Settings**  
+2. Go to **Special Features → Experimental → Spoofing**  
+3. Tap **Update Play Integrity Fix**
 
----
-
-## 3. Download the Converted File
-
-- After processing, a new file named `keybox_pkcs8_priv.xml` will be generated.
-- Save this file to your device.
+✅ After completing these steps, you should now **pass both Basic and Device Integrity** checks.
 
 ---
 
-## 4. Import via Spoof Settings
+## 🔐 Passing Strong Integrity (Optional)
 
-- Open the **Spoof Settings** app.
-- Navigate to the **Keybox Import** section.
-- Select the downloaded `keybox_pkcs8_priv.xml`.
+To pass **Strong Integrity**, you’ll need a **valid keybox** file.
+
+1. Obtain a **valid keybox XML** from trusted sources *(you’ll need to find one yourself — these are not provided)*  
+2. In the **Spoofing** section, tap **Select Keybox XML File**  
+3. Load the valid keybox file you obtained  
+4. Clear **Play Store** data  
+5. Recheck your **Play Integrity** status  
+
+🎉 You should now **pass Strong Integrity** as well!
 
 ---
 
-## 5. Reboot Your Device
-
-- Restart your device to apply the updated keybox changes.
-
----
-
-✅ **Done!** Your keybox has been successfully updated and imported.
+### 📝 Note
+- Passing **Device Integrity** is sufficient for most banking and finance apps to function seamlessly.
+- Stop abusing keyboxes just for flexing purposes — use them only when necessary.
