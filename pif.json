@@ -1,9 +1,9 @@
 {
   "MANUFACTURER": "Google",
-  "MODEL": "Pixel 10 Pro XL",
-  "FINGERPRINT": "google/mustang_beta/mustang:16/BP41.250916.010.A1/14281945:user/release-keys",
-  "PRODUCT": "mustang_beta",
-  "DEVICE": "mustang",
+  "MODEL": "Pixel 9 Pro XL",
+  "FINGERPRINT": "google/komodo_beta/komodo:16/BP41.250916.015.A1/14394230:user/release-keys",
+  "PRODUCT": "komodo_beta",
+  "DEVICE": "komodo",
   "SECURITY_PATCH": "2025-10-05",
   "DEVICE_INITIAL_SDK_INT": "32"
 }
