@@ -10,14 +10,12 @@ Follow these steps to convert and import your `keybox.xml` for use with **AxionA
 
 Go to the official website:
 
-👉 [https://axionaosp.github.io/](https://axionaosp.github.io/)
+👉 [https://axionaosp.github.io/](https://axionaosp.github.io/keybox)
 
 ---
 
 ## 2. Upload Your Keybox
 
-- Tap the **three dots** in the top-right corner.
-- Select **"Keybox"** from the menu.
 - Choose **"Upload Keybox"**.
 - In the file manager, select your valid `keybox.xml`.
 
