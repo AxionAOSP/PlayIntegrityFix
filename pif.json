@@ -1,9 +1,9 @@
 {
     "MANUFACTURER": "Google",
-    "MODEL": "Pixel Tablet",
-    "PRODUCT": "shiba_beta",
-    "DEVICE": "shiba",
-    "FINGERPRINT": "google/shiba_beta/shiba:16/BP31.250610.009/13905196:user/release-keys",
+    "MODEL": "Pixel 9 Pro",
+    "PRODUCT": "komodo_beta",
+    "DEVICE": "komodo",
+    "FINGERPRINT": "google/komodo_beta/komodo:16/BP31.250610.009/13905196:user/release-keys",
     "SECURITY_PATCH": "2025-07-05",
     "DEVICE_INITIAL_SDK_INT": "32"
 }
