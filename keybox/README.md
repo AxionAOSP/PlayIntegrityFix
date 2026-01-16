@@ -1,34 +1,67 @@
-# 🧩 Axion OS Play Integrity Fix Guide
+# 🧩 Axion OS – Play Integrity Fix Guide
 
-This guide will help you fix **Play Integrity** and pass all integrity levels — **Basic**, **Device**, and **Strong** — in just a few simple steps.
+This guide will help you fix **Google Play Integrity** and pass all available integrity levels:
 
----
+- ✅ **Basic Integrity**
+- ✅ **Device Integrity**
+- ✅ **Strong Integrity**
 
-## ⚙️ Passing Basic and Device Integrity
-
-1. Open **Settings**  
-2. Go to **Special Features → Experimental → Spoofing**  
-3. Tap **Update Play Integrity Fix**
-
-✅ After completing these steps, you should now **pass both Basic and Device Integrity** checks.
+Follow the steps carefully 👇
 
 ---
 
-## 🔐 Passing Strong Integrity (Optional)
+## ⚙️ Passing Basic Integrity
 
-To pass **Strong Integrity**, you’ll need a **valid keybox** file.
+1. Open **Settings**
+2. Navigate to **Axion Hub → Essentials → Play Integrity Fix**
+3. Tap **Fetch Pixel Beta**
 
-1. Obtain a **valid keybox XML** from trusted sources *(you’ll need to find one yourself — these are not provided)*  
-2. In the **Spoofing** section, tap **Select Keybox XML File**  
-3. Load the valid keybox file you obtained  
-4. Clear **Play Store** data  
-5. Recheck your **Play Integrity** status  
-
-🎉 You should now **pass Strong Integrity** as well!
+🎉 **Done!**  
+After completing these steps, your device should now **pass Basic Integrity**.
 
 ---
 
-### 📝 Note
-- Passing **Device Integrity** is sufficient for most banking and finance apps to function seamlessly.
-- Stop abusing keyboxes just for flexing purposes — use them only when necessary.
-- If you are still using **Android 15 builds**, you need to follow the **keybox conversion guide** here: [Keybox Conversion Guide](https://github.com/AxionAOSP/PlayIntegrityFix/blob/lineage-22.1/keybox/Keybox_conversion.md)
+## 🔐 Passing Strong Integrity
+
+To pass **Strong Integrity**, a **valid keybox** is required.
+
+### 📌 Steps
+
+1. Obtain a **valid keybox XML** from a trusted source  
+   > ⚠️ Keyboxes are **not provided**. You must find one yourself.
+2. Open **Axion Hub → Essentials → Tricky Store**
+3. Tap **Import Keybox** and load your valid keybox file
+4. Open **Manage Target Apps**
+   - Search for **Google Play Services** and **Google Play Store**
+   - Select:
+     - **Leaf? 🍃** → If your device has a **working TEE**
+     - **Gen! ⚙️** → If your device has a **broken TEE**  
+       *(Common on OnePlus, Moto, etc.)*
+5. Recheck your **Play Integrity** status
+
+🎉 You should now **pass Strong Integrity**!
+
+> ⚠️ **Important:**  
+> Always **delete the existing keybox** before importing a new one  
+> (**Tricky Store → Delete Keybox**)
+
+---
+
+## ⚙️ Passing up to Device Integrity (Basic + Device)
+
+- Previously, spoofing the **Play Store** allowed passing **Device Integrity**, but Google has now **patched** this method.
+- If Google **soft-bans keyboxes**, a keybox that previously passed **Strong Integrity** may still allow passing **up to Device Integrity**.
+
+---
+
+## 📝 Notes & Warnings
+
+- 🔄 Google may change Play Integrity behavior **at any time** — enjoy it while it lasts.
+- ❌ Do **not abuse keyboxes** just for flexing. Use them **only when necessary**.
+- 📱 **Android 15 builds** → [Follow the keybox conversion guide](https://github.com/AxionAOSP/PlayIntegrityFix/blob/lineage-22.1/keybox/Keybox_conversion.md)
+- 🧱 **Axion builds v2.0 – v2.2.1** → [Follow this guide](https://github.com/AxionAOSP/PlayIntegrityFix/blob/lineage-22.1/keybox/old.md)
+
+---
+
+💡 **Tip:**  
+Keep your setup minimal and responsible — this helps Play Integrity remain functional longer on **Axion OS**.
